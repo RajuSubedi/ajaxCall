@@ -30,7 +30,7 @@
     <script>
         // using jquery AJAX call we can send data to nodejs backend
         $(document).ready(function () {
-            $(dataSend).click(function () {
+            $("#dataSend").click(function () {
                 $.post("http://localhost:8000/getData",
                     {
                         name: document.getElementById("usr").value,
